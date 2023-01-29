@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap');
+
+h1,
+h2,
+h3{
+    color: #ffffff;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.5rem;
+}
+
+h4{
+    color: hsl(0, 0%, 0%);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.cuotas{
+    text-align: center;
+    background-color:#f6a700;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.bg-mustard{
+    text-align: center;
+    background-color: #f6a700;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+} 
+
+.logo{
+    height: 4em;
+    width: auto;
+}
+
+
+.typetext{
+    color: hsl(0, 0%, 0%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+
+.typetext2{
+    color: hsl(0, 0%, 100%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+
+.btn{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+}
+#navbarSupportedContent ul li a{
+    font-family: 'Bebas Neue', cursive; 
+    font-size: 1.5rem;
+    background-color: white;
+    transition: background-color .2s;
+}
+
+
+
+/* botones search, cuenta y carrito */
+
+.btn-primary, .btn-primary:hover, .btn-primary:active{
+    background-color: #ffffff;
+    border-color:  #ffffff;
+}
+
+
+.text-bg{
+    background-color: #2F1608;
+}
+
+
+
+
+#navbarSupportedContent ul li a:hover{
+   text-decoration: underline;
+}
+
+
+.text-dark{
+    color: hsl(0, 0%, 0%);
+    font-family: 'Bebas Neue', cursive; 
+    font-size: 1.5rem;
+}
+
+
+.text-light{
+    color: hsl(0, 0%, 100%);
+    font-family: 'Bebas Neue', cursive; 
+    font-size: 1.5rem;
+}
+
+
+
+
+/* no funciona frase en el footer */
+/* ESTILO DE PAGES */
+
+#products h1{
+    background-color: white;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: hsl(0, 0%, 0%);
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 15px 0%;
+    margin: 15px 0%;
+}
+
+
+#products .allproducts{
+    background-color: white;
+    color: hsl(0, 0%, 0%);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.2rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 96%;
+    justify-content: space-between;
+
+}
+
+
+#products .price {
+    text-align: center;
+}
