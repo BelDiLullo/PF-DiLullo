@@ -49,9 +49,11 @@ h4{
 }
 
 .btn{
+    color: hsl(0, 0%, 0%);
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
     font-weight: bold;
+    background-color: #f6a700;
 }
 #navbarSupportedContent ul li a{
     font-family: 'Bebas Neue', cursive; 
@@ -96,10 +98,20 @@ h4{
 }
 
 
-
-
 /* no funciona frase en el footer */
 /* ESTILO DE PAGES */
+
+
+
+
+#products .price {
+    text-align: center;
+}
+
+.pie__titulo--md{
+    font-size: 1.2em;
+    padding: 1em;
+}
 
 #products h1{
     background-color: white;
@@ -113,7 +125,6 @@ h4{
     margin: 15px 0%;
 }
 
-
 #products .allproducts{
     background-color: white;
     color: hsl(0, 0%, 0%);
@@ -123,12 +134,16 @@ h4{
     text-align: center;
     align-items: center;
     flex-wrap: wrap;
-    width: 96%;
-    justify-content: space-between;
-
+    justify-content: space-evenly;
 }
 
 
-#products .price {
-    text-align: center;
+.container{
+    font-size: 1.2em;
+    align-items: center;
+}
+
+.redes{
+    height: 3em;
+    width: auto;
 }
