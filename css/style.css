@@ -11,8 +11,9 @@ h3{
 h4{
     color: hsl(0, 0%, 0%);
     font-family: 'Bebas Neue', cursive;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     text-align: center;
+    
 }
 
 
@@ -67,7 +68,7 @@ h6{
 .typetext2{
     color: hsl(0, 0%, 100%);
     font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 
