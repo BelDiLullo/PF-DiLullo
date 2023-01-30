@@ -27,7 +27,7 @@ h5{
 h6{
     color: hsl(0, 0%, 0%);
     font-family: 'Bebas Neue', cursive;
-    font-size: 1.0rem;
+    font-size: 1rem;
 }
 
 
@@ -170,11 +170,3 @@ h6{
 
 }
 
-
-
-.colfooter{
-
-    width: 20%;
-    height: auto;
-    float: left;
-}
