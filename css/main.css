@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap");
+h1,
+h2,
+h3 {
+  color: hsl(0deg, 0%, 100%);
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.5em;
+}
+
+h4 {
+  color: rgb(0, 0, 0);
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.4em;
+  text-align: center;
+}
+
+h5 {
+  color: rgb(0, 0, 0);
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.2em;
+}
+
+h6 {
+  color: rgb(0, 0, 0);
+  font-family: "Bebas Neue", cursive;
+  font-size: 1em;
+}
+
+.typetext {
+  color: rgb(0, 0, 0);
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+}
+
+.typetext1 {
+  color: rgb(0, 0, 0);
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.typetext2 {
+  color: hsl(0deg, 0%, 100%);
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2em;
+}
+
+.typetext3 {
+  color: rgb(0, 0, 0);
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.text-dark {
+  color: rgb(0, 0, 0);
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.5em;
+}
+
+.text-light {
+  color: hsl(0deg, 0%, 100%);
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.5em;
+}
+
+.btn {
+  color: rgb(0, 0, 0);
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  background-color: hsl(41deg, 100%, 48%);
+}
+
+.logo {
+  height: 4em;
+  width: auto;
+}
+
+.cuotas {
+  color: rgb(0, 0, 0);
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+  background-color: hsl(41deg, 100%, 48%);
+}
+
+.bg-mustard {
+  text-align: center;
+  background-color: hsl(41deg, 100%, 48%);
+  font-family: "Montserrat", sans-serif;
+  font-size: 2em;
+}
+
+#navbarSupportedContent ul li a {
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.5em;
+  background-color: hsl(0deg, 0%, 100%);
+  transition: background-color 0.2s;
+}
+#navbarSupportedContent ul li a:hover {
+  text-decoration: underline;
+}
+
+.btn-primary {
+  background-color: hsl(0deg, 0%, 100%);
+  border-color: hsl(0deg, 0%, 100%);
+}
+
+.text-bg {
+  background-color: hsl(22deg, 71%, 11%);
+}
+
+.redes {
+  height: 2em;
+  width: auto;
+}
+
+#products .allproducts {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: hsl(0deg, 0%, 100%);
+  color: rgb(0, 0, 0);
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/*# sourceMappingURL=main.css.map */

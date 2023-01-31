@@ -1,0 +1,73 @@
+h1,
+h2,
+h3 {
+    color: $secondaryColor;
+    font-family: $mainFont;
+    font-size: $fontsize4;
+}
+
+h4 {
+    color: $mainColor;
+    font-family: $mainFont;
+    font-size: $fontsize3;
+    text-align: center;
+}
+
+h5 {
+    color: $mainColor;
+    font-family: $mainFont;
+    font-size: $fontsize2;
+}
+
+h6 {
+    color: $mainColor;
+    font-family: $mainFont;
+    font-size: $fontsize1;
+}
+
+.typetext {
+    color: $mainColor;
+    font-family: $secondaryFont;
+    font-size: $fontsize1;
+}
+
+.typetext1 {
+    color: $mainColor;
+    font-family: $secondaryFont;
+    font-size: $fontsize2;
+    font-weight: bold;
+}
+
+.typetext2 {
+    color: $secondaryColor;
+    font-family: $secondaryFont;
+    font-size: $fontsize2;
+}
+
+.typetext3 {
+    color: $mainColor;
+    font-family: $secondaryFont;
+    font-size: $fontsize1;
+    font-weight: bold;
+}
+
+.text-dark {
+    color: $mainColor;
+    font-family: $mainFont;
+    font-size: $fontsize4;
+}
+
+.text-light {
+    color: $secondaryColor;
+    font-family: $mainFont;
+    font-size: $fontsize4;
+}
+
+.btn {
+    color: $mainColor;
+    font-family: $secondaryFont;
+    font-size: $fontsize1;
+    font-weight: bold;
+    background-color: $secondarybgColor;
+}
+

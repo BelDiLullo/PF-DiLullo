@@ -1,0 +1,47 @@
+.logo {
+    height: 4em;
+    width: auto;
+}
+
+.cuotas {
+    color: $mainColor;
+    font-family: $secondaryFont; 
+    font-weight: bold;
+    font-size: $fontsize1;
+    text-align: $textalign;
+    background-color:$secondarybgColor;
+  
+}
+
+.bg-mustard {
+    text-align: $textalign;
+    background-color: $secondarybgColor;
+    font-family: $secondaryFont;
+    font-size: $fontsize5;
+} 
+
+#navbarSupportedContent ul li {
+    a{ 
+    font-family: $mainFont; 
+    font-size: $fontsize4;
+    background-color: $mainbgColor;
+    transition: background-color .2s;
+        &:hover{
+            text-decoration: underline;
+            }
+    }
+}
+    
+.btn-primary {
+    background-color: $mainbgColor;
+    border-color: $mainbgColor;
+}
+
+.text-bg {
+    background-color: $tertiarybgColor;
+}
+
+.redes {
+    height: 2em;
+    width: auto;
+}

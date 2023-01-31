@@ -1,0 +1,13 @@
+#products .allproducts {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: $mainbgColor;
+    color: $mainColor;
+    font-family: $secondaryFont;
+    font-size: $fontsize1;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: $textalign;
+    align-items: center;
+    justify-content: $justify;
+}
