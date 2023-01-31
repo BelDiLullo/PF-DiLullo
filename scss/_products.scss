@@ -1,4 +1,5 @@
-#products .allproducts {
+#products {
+    .allproducts {
     display: flex;
     flex-wrap: wrap;
     background-color: $mainbgColor;
@@ -7,7 +8,8 @@
     font-size: $fontsize1;
     font-weight: bold;
     text-transform: uppercase;
-    text-align: $textalign;
+    text-align: center;
     align-items: center;
-    justify-content: $justify;
+    justify-content: center;
+    }
 }
