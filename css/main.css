@@ -2,7 +2,7 @@
 h1,
 h2,
 h3 {
-  color: hsl(0deg, 0%, 100%);
+  color: rgb(0, 0, 0);
   font-family: "Bebas Neue", cursive;
   font-size: 1.5em;
 }
@@ -11,16 +11,9 @@ h4 {
   color: rgb(0, 0, 0);
   font-family: "Bebas Neue", cursive;
   font-size: 1.4em;
-  text-align: center;
 }
 
 h5 {
-  color: rgb(0, 0, 0);
-  font-family: "Bebas Neue", cursive;
-  font-size: 1.2em;
-}
-
-h6 {
   color: rgb(0, 0, 0);
   font-family: "Bebas Neue", cursive;
   font-size: 1em;
@@ -46,10 +39,9 @@ h6 {
 }
 
 .typetext3 {
-  color: rgb(0, 0, 0);
-  font-family: "Montserrat", sans-serif;
-  font-size: 1em;
-  font-weight: bold;
+  color: hsl(0deg, 0%, 100%);
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.4em;
 }
 
 .text-dark {
@@ -64,12 +56,23 @@ h6 {
   font-size: 1.5em;
 }
 
+.headerfont {
+  color: hsl(0deg, 0%, 100%);
+  font-family: "Bebas Neue", cursive;
+  font-size: 4em;
+}
+
 .btn {
   color: rgb(0, 0, 0);
   font-family: "Montserrat", sans-serif;
   font-size: 1em;
   font-weight: bold;
   background-color: hsl(41deg, 100%, 48%);
+}
+
+.icons {
+  height: 2em;
+  width: auto;
 }
 
 .logo {
@@ -127,8 +130,8 @@ h6 {
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
-  align-items: center;
-  justify-content: space-evenly;
+  text-align: center;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=main.css.map */

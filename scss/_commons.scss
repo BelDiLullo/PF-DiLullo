@@ -1,7 +1,7 @@
 h1,
 h2,
 h3 {
-    color: $secondaryColor;
+    color: $mainColor;
     font-family: $mainFont;
     font-size: $fontsize4;
 }
@@ -10,20 +10,14 @@ h4 {
     color: $mainColor;
     font-family: $mainFont;
     font-size: $fontsize3;
-    text-align: center;
 }
 
 h5 {
     color: $mainColor;
     font-family: $mainFont;
-    font-size: $fontsize2;
-}
-
-h6 {
-    color: $mainColor;
-    font-family: $mainFont;
     font-size: $fontsize1;
 }
+
 
 .typetext {
     color: $mainColor;
@@ -45,10 +39,10 @@ h6 {
 }
 
 .typetext3 {
-    color: $mainColor;
-    font-family: $secondaryFont;
-    font-size: $fontsize1;
-    font-weight: bold;
+    color: $secondaryColor;
+    font-family: $mainFont;
+    font-size: $fontsize3;
+
 }
 
 .text-dark {
@@ -63,6 +57,12 @@ h6 {
     font-size: $fontsize4;
 }
 
+.headerfont {
+color: $secondaryColor;
+font-family: $mainFont;
+font-size: 4em;
+}
+
 .btn {
     color: $mainColor;
     font-family: $secondaryFont;
@@ -71,3 +71,7 @@ h6 {
     background-color: $secondarybgColor;
 }
 
+.icons{
+    height: 2em;
+    width: auto;
+}
