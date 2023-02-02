@@ -75,6 +75,11 @@ h5 {
   width: auto;
 }
 
+.btn-primary:hover {
+  background-color: hsl(0deg, 0%, 100%);
+  border-color: hsl(0deg, 0%, 100%);
+}
+
 .logo {
   height: 4em;
   width: auto;
